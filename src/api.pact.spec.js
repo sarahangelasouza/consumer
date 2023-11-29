@@ -6,10 +6,10 @@ const { eachLike, like } = MatchersV3;
 const Pact = PactV3;
 
 const mockProvider = new Pact({
-  consumer: 'pactflow-example-consumer',
+  consumer: 'sarah-consumer',
   provider: process.env.PACT_PROVIDER
     ? process.env.PACT_PROVIDER
-    : 'pactflow-example-provider'
+    : 'sarah-provider'
 });
 
 describe('API Pact test', () => {
