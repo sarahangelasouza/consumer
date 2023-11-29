@@ -6,7 +6,7 @@ on:
 
 env:
   PACT_BROKER_BASE_URL: https://smartbear-se-demo.pactflow.io
-  PACT_PROVIDER: pactflow-provider
+  PACT_PROVIDER: sarah-provider
   PACT_BROKER_TOKEN: ${{ secrets.PACTFLOW_TOKEN_FOR_CI_CD_WORKSHOP }}
   REACT_APP_API_BASE_URL: http://localhost:3001
   GIT_COMMIT: ${{ github.sha }}
